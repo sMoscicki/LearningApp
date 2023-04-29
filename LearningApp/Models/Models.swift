@@ -33,6 +33,7 @@ struct Test: Decodable, Identifiable{
     var id: Int
     var image: String
     var description: String
+    var time: String
     var questions: [Question]
     
 }
