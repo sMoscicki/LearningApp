@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0411871A29FD15C200C51CD6 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411871929FD15C200C51CD6 /* HomeViewRow.swift */; };
+		0411872029FD1DB200C51CD6 /* LearnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411871F29FD1DB200C51CD6 /* LearnCardView.swift */; };
+		0411872429FD2EFE00C51CD6 /* LearnCardViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411872329FD2EFE00C51CD6 /* LearnCardViewRow.swift */; };
+		0411872629FD329000C51CD6 /* LearnDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411872529FD329000C51CD6 /* LearnDetailView.swift */; };
 		04A6591629F9494100F4FC3C /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6591529F9494100F4FC3C /* LearningApp.swift */; };
 		04A6591829F9494100F4FC3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6591729F9494100F4FC3C /* HomeView.swift */; };
 		04A6591A29F9494300F4FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A6591929F9494300F4FC3C /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		0411871929FD15C200C51CD6 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		0411871F29FD1DB200C51CD6 /* LearnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardView.swift; sourceTree = "<group>"; };
+		0411872329FD2EFE00C51CD6 /* LearnCardViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardViewRow.swift; sourceTree = "<group>"; };
+		0411872529FD329000C51CD6 /* LearnDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnDetailView.swift; sourceTree = "<group>"; };
 		04A6591229F9494100F4FC3C /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A6591529F9494100F4FC3C /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		04A6591729F9494100F4FC3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 			children = (
 				04A6591729F9494100F4FC3C /* HomeView.swift */,
 				0411871929FD15C200C51CD6 /* HomeViewRow.swift */,
+				0411871F29FD1DB200C51CD6 /* LearnCardView.swift */,
+				0411872329FD2EFE00C51CD6 /* LearnCardViewRow.swift */,
+				0411872529FD329000C51CD6 /* LearnDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0411872629FD329000C51CD6 /* LearnDetailView.swift in Sources */,
 				04A6591829F9494100F4FC3C /* HomeView.swift in Sources */,
+				0411872029FD1DB200C51CD6 /* LearnCardView.swift in Sources */,
 				0411871A29FD15C200C51CD6 /* HomeViewRow.swift in Sources */,
+				0411872429FD2EFE00C51CD6 /* LearnCardViewRow.swift in Sources */,
 				04A6591629F9494100F4FC3C /* LearningApp.swift in Sources */,
 				04A6592929F94A4000F4FC3C /* ContentModel.swift in Sources */,
 				04A6593029F9529F00F4FC3C /* Models.swift in Sources */,
